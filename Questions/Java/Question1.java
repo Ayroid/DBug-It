@@ -1,7 +1,7 @@
-/**
- * Question1: How do you find the second largest number in an array in Java
- * without Sorting the Array?
- */
+// Question1:
+// How do you find the second largest number in an array in Java
+// without Sorting the Array?
+
 public class Question1 {
 
     public int findSecondHighest(int[] array) {
