@@ -29,24 +29,26 @@ public class Question6 {
 
     public static void main(String[] args) {
         Question6 q6 = new Question6();
+
+        // Test Case 1
         int[] arr = { 1, 3, 4, 2, 2 };
-        System.out.println("Test Case 1: " + q6.findDuplicate(arr)); // Expected output: 2
+        System.out.println("Test Case 1: " + q6.findDuplicate(arr));
 
-        // Test Case 2: Array with negative integers
+        // Test Case 2
         int[] arr2 = { 3, 1, 3, 4, 2 };
-        System.out.println("Test Case 2: " + q6.findDuplicate(arr2)); // Expected output: 3
+        System.out.println("Test Case 2: " + q6.findDuplicate(arr2));
 
-        // Test Case 3: Array with repeated values
+        // Test Case 3
         int[] arr3 = { 1, 1 };
-        System.out.println("Test Case 3: " + q6.findDuplicate(arr3)); // Expected output: 1
+        System.out.println("Test Case 3: " + q6.findDuplicate(arr3));
 
-        // Test Case 4: Array with only one element
+        // Test Case 4
         int[] arr4 = { 1 };
-        System.out.println("Test Case 4: " + q6.findDuplicate(arr4)); // Expected output: -1
+        System.out.println("Test Case 4: " + q6.findDuplicate(arr4));
 
-        // Test Case 5: Empty array
+        // Test Case 5
         int[] arr5 = {};
-        System.out.println("Test Case 5: " + q6.findDuplicate(arr5)); // Expected output: -1
+        System.out.println("Test Case 5: " + q6.findDuplicate(arr5));
     }
 
 }

@@ -21,24 +21,26 @@ public class Question1 {
 
     public static void main(String[] args) {
         Question1 q1 = new Question1();
+
+        // Test Case 1
         int[] array1 = { 10, 5, 8, 15, 7 };
-        System.out.println("Test Case 1: " + q1.findSecondHighest(array1)); // Expected output: 10
+        System.out.println("Test Case 1: " + q1.findSecondHighest(array1));
 
-        // Test Case 2: Array with negative integers
+        // Test Case 2
         int[] array2 = { -5, -10, -3, -8 };
-        System.out.println("Test Case 2: " + q1.findSecondHighest(array2)); // Expected output: -5
+        System.out.println("Test Case 2: " + q1.findSecondHighest(array2));
 
-        // Test Case 3: Array with repeated values
+        // Test Case 3
         int[] array3 = { 5, 5, 5, 5 };
-        System.out.println("Test Case 3: " + q1.findSecondHighest(array3)); // Expected output: 5
+        System.out.println("Test Case 3: " + q1.findSecondHighest(array3));
 
-        // Test Case 4: Array with only one element
+        // Test Case 4
         int[] array4 = { 7 };
-        System.out.println("Test Case 4: " + q1.findSecondHighest(array4)); // Expected output: 7
+        System.out.println("Test Case 4: " + q1.findSecondHighest(array4));
 
-        // Test Case 5: Empty array
+        // Test Case 5
         int[] array5 = {};
-        System.out.println("Test Case 5: " + q1.findSecondHighest(array5)); // Expected output: Integer.MIN_VALUE
+        System.out.println("Test Case 5: " + q1.findSecondHighest(array5));
     }
 
 }
