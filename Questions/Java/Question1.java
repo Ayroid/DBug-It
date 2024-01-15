@@ -11,14 +11,11 @@ public class Question1 {
         int highest = array[0];
         int secondHighest = Integer.MIN_VALUE;
 
-        for (int i : array) {
-            if (i > highest) {
-                secondHighest = highest;
-                highest = i;
-            } else if (i > secondHighest) {
-                secondHighest = i;
-            }
-        }
+        // Write
+        // Your
+        // Code
+        // Here
+
         return secondHighest;
     }
 
