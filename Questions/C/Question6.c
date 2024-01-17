@@ -48,10 +48,5 @@ int main()
     int size4 = sizeof(arr4) / sizeof(arr4[0]);
     printf("Test Case 4: %d\n", findDuplicate(arr4, size4));
 
-    // Test Case 5
-    int arr5[] = {};
-    int size5 = sizeof(arr5) / sizeof(arr5[0]);
-    printf("Test Case 5: %d\n", findDuplicate(arr5, size5));
-
     return 0;
 }
